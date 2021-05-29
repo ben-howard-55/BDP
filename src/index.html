@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="index.css">
+    <script type='text/javascript' src="popup.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-content">
+        <div id="nav-bar">
+            <div id="logo-div">
+                <div id="logo"></div>
+            </div>
+            <a id="active" href="index.html">Home</a>
+            <a href="/">About Us</a>
+            <a href="/">Books</a>
+            <a href="/">Get Started</a>
+            <a href="/">News</a>
+            <a href="/">Members</a>
+            <div id="login">
+                <a href="/">Login</a>
+            </div>
+        </div>
+
+        <div id="form">
+            <button id="close-button" onclick="closeForm()">X</button>
+            <div id="form-title">
+                <h2>Sign up to a book discussion program today!</h2>
+            </div>
+            <div id="form-div">
+                <form>
+                    <div id="userDetails">
+                        <h3>Your Details</h3>
+                        <label for="givenName">Given Name</label>
+                        <input type="text" id="givenName" name="givenName">
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password">
+                    </div>
+                    <div id="Addresses">
+                        <h3>Your Addresses</h3>
+                        <label for="homeAddress">Home Address</label>
+                        <input type="text" id="homeAddress" name="homeAddress">
+                        <label for="workAddress">Work Address</label>
+                        <input type="text" id="workAddress" name="workAddress">
+                    </div>
+                    <div id="Contacts">
+                        <h3>Your Contact Information</h3>
+                        <label for="mobileNumber">Mobile Number</label>
+                        <input type="text" id="mobileNumber" name="mobileNumber">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div id="submit">
+                    <button type="submit" id="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="hero">
+            <div id="hero-text">
+                <h1><u>Get Involved</u> with a Book Program Discussion!</h1>
+            </div>
+            <div id="hero-sub-text">
+                <p>Join hundreds of other like-minded people who have joined Book Program Scheme.</p>
+            </div>
+            <div id="register-section">
+                <button id="register-button" onclick="openForm()">Register Here</button>
+            </div>
+        </div>
+        <div id='info-cards'>
+            <div id="card">
+                <div id="card-header">
+                    <h2>Latest News</h2>
+                </div>
+                <div id="card-title">
+                    <h3>Covid-19 Update Mon 15 Feb 2021</h3>
+                </div>
+                <div id='card-info'>
+                    <div id='image-place-holder'></div>
+                </div>
+                <div id="card-button-div">
+                    <button id="card-button">Learn More</button>
+                </div>
+            </div>
+            <div id="card">
+                    <div id="card-header">
+                        <h2>Books</h2>
+                    </div>
+                    <div id="card-title">
+                        <h3>All You Can Ever Know</h3>
+                    </div>
+                    <div id='card-info'>
+                        <div id='image-place-holder'></div>
+                    </div>
+                    <div id="card-button-div">
+                        <button id="card-button">Find Out More</button>
+                    </div>
+            </div>
+            <div id="card">
+                <div id="card-header">
+                    <h2>Get Involved</h2>
+                </div>
+                <div id="card-title">
+                    <h3>Meet New People</h3>
+                </div>
+                <div id='card-info'>
+                    <p>
+                        Experience new and interesting reading adventures... 
+                    </br>
+                        Whatever the reason you want to be part of a book group, we can help!
+                    </p>
+                </div>
+                <div id="card-button-div">
+                    <button id="card-button">Get Involved</button>
+                </div>
+            </div>
+        </div>
+        <div id="footer"><p>&copy; Book Discussion Program</p></div>
+    </div>
+    
+</body>
+</html>
