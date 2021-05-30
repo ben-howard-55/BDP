@@ -11,10 +11,15 @@
     font-family: Roboto;
 }
 
+#main-content {
+    max-width: 1440px;
+    margin: auto;
+}
+
 #nav-bar {
     font-family: Roboto;
     display: flex;
-    height: 64px;
+    height: 50px;
     background: #497E76;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -24,21 +29,21 @@
 }
 
 #logo {
-    width: 90px;
-    height: 90px;
-    background-color: #fff;
+    width: 64px;
+    height: 64px;
+    /* background-image: url(Book-Program-Discussion-2.png);
+    background-size: cover; */
     margin-left: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #nav-bar a {
-    padding-top: 18px;
+    padding-top: 16px;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 16px;
     text-align: center;
     color: #fff;
 }
@@ -50,12 +55,12 @@
 }
 
 #login a {
-    padding-top: 18px;
+    padding-top: 16px;
     text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 16px;
     color: #497E76;
 }
 
@@ -68,11 +73,11 @@ a#active {
     position: absolute;
     display: none;
     left: 50%;
-    top: 50%;
-    width: 800px;
-    margin-left: -400px;
-    height: 900px;
-    margin-top: -450px;
+    top: 70%;
+    width: 600px;
+    margin-left: -300px;
+    height: 700px;
+    margin-top: -350px;
     background-color: #fdfdfd;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -101,14 +106,12 @@ form {
     padding-bottom: 20px;
     height: auto;
     margin: auto;
-    width: 600px;
     display: flex;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    /* identical to box height */
+    font-size: 20px;
 
     text-align: center
 }
@@ -129,8 +132,22 @@ form {
 }
 
 #submit-button {
-    height: 30px;
+    height: 40px;
     width: 150px;
+
+    background: #497E76;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 #submit {
@@ -140,7 +157,6 @@ form {
 }
 
 #userDetails {
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -165,12 +181,13 @@ input {
     /* padding-top: 10px; */
     height: 30px;
     width: 300px;
+    border: 2px solid #497E76;
+    box-shadow: none;
 }
 
 label {
     padding-top: 10px;
 }
-
 
 #hero {
     z-index: 100;
@@ -181,19 +198,19 @@ label {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 70%;
+    height: 100%;
 }
 
 #hero-text {
-    width: 727px;
+    width: 600px;
     height: 150px;
-    padding-top: 56px;
-    padding-bottom: 31px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     margin: auto;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     /* line-height: 32px; */
     text-align: center;
     /* text-decoration-line: underline; */
@@ -210,13 +227,12 @@ u {
 #hero-sub-text {
     padding-bottom: 31px;
     margin: auto;
-    width: 548px;
-    height: 56px;
+    width: 500px;
+    height: auto;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 20px;
     text-align: center;
 
     color: #000000;
@@ -225,12 +241,13 @@ u {
 #register-section {
     display: flex;
     justify-content: center;
+    
 }
 
 #register-button {
     justify-content: center;
-    width: 374px;
-    height: 62px;
+    width: 300px;
+    height: 50px;
     background: #497E76;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -244,16 +261,15 @@ u {
     text-align: center;
 
     color: #FFFFFF;
-
 }
 
 #info-cards {
     align-self: center;
-    width: auto;
-    max-width: 1440px;
+    width: 90%;
+    max-width: 1140px;
     height: 300px;
     margin: auto;
-    margin-top: -100px;
+    margin-top: -200px;
     display: flex;
     justify-content: space-between;
 }
@@ -262,45 +278,50 @@ u {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 430px;
+    width: 30%;
     background: #FDFDFD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #card-header {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+
     padding-top: 8px;
     padding-bottom: 6px;
-    height: auto;
+    font-size: 16px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    /* font-size: 20px; */
-    line-height: 28px;
     text-align: center;
     color: #497E76;
-    justify-content: start;
 }
 
 #card-title {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+
     padding-bottom: 15px;
-    height: 27px;
+    font-size: 14px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 23px;
     text-align: center;
     color: #515151;
 }
 
 #card-info {
     align-self: center;
-    width: 316px;
+    width: 90%;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     color: #515151;
 }
@@ -325,8 +346,7 @@ u {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
     text-align: center;
 
     color: #FFFFFF;
@@ -345,14 +365,14 @@ u {
     height: 135px;
     background-color: #fff;
     display: flex;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px -2px 0px 0px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
 
 #footer p {
-    margin-top: 230px;
+    margin-top: 220px;
     height: auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     justify-self: flex-end;
 
     font-family: Roboto;
